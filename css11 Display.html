@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <title>CSS11</title>
+
+   <style>
+       #span-tag{
+           display: inline;  /*word ka dono side same space aa jayga*/
+           background-color: bisque;
+         }
+
+         .p-tag{
+            display: block;  /*display block property ma ek line upar or ek line nicha khali rahati hai.*/
+            background-color: aqua;
+        }
+
+         #span1-tag{
+            display: inline-block;
+            width: 200px;
+            margin: 30px;
+            background-color: blanchedalmond;
+         }
+
+         #p2-tag{
+            display: none;   /* none ka matlab hai aapne jo likha hai vo sirf code ma hota hai vo output ma koi space bhi nhi leta or na hi output ma dikhta hai.*/
+         }
+
+         #p3-tag{
+            visibility: hidden;   /*output ma nhi dikhaga lakin space lata hai*/
+         }
+
+   </style>
+
+</head>
+
+<body>
+
+    <p>
+        Coding Seekho
+        <span id="span-tag">Akurdi</span>
+        pune
+    </p>
+    
+     
+    <div>
+    <div class="p-tag">The Best Coding Learning Platform</div>
+    <p>test</p>
+    </div>
+
+
+    <div>
+        <P id="p1-tag">The Coding Era   <span id="span1-tag">Akurdi</span>Begins</P>
+    </div>
+
+    <p id="p2-tag">"With coding, learning is an adventure waiting to be explored."</p>
+
+    <p id="p3-tag">Student - Ready to future-proof your career?</p>
+
+    <p>Testing</p>
+</body>
+
+
+</html>

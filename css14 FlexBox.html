@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>FlexBox</title>
+
+<style>
+    .container{
+        display: flex;
+        background-color: gray;
+        justify-content: space-around; /*flex-start, flex-end*/ /*box ka bich equal space ka liya*/
+    }
+
+    .container div{
+        background-color: white;
+        color: black; /*font color*/
+        padding: 20px;
+        margin: 20px;
+   }
+
+    #a{
+        order:4;   /*display type flex likhoge tho hi sequence change kar sakte ho*/
+        
+        flex-grow: 3; /* 1 to 100 number likh sakte hai*/
+    }
+    #b{
+        order:3;
+        flex-shrink: 10; /* 1 to 100 number likh sakte hai*/
+    }
+    #c{
+        order:2;
+
+    } 
+    #d{
+        order:1;
+    }
+
+
+</style>
+    
+
+</head>
+
+<body>
+
+<div class="container">  
+    <div id="a">A</div>  <!--id or class same hote hai kuch bhi likho-->
+    <div id="b">B</div>
+    <div id="c">C</div>
+    <div id="d">D</div>
+</div> 
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+/*  *{
+
+         color:black;
+
+      } */   /*isko universal selecter khate hai isko laga diya tho jo universal ka ander colour hai vo pura page par lage jaiga*/
+
+
+
+h1{
+    color:blue;
+}/*Element selecter*/
+
+
+
+h2,p{
+                color: brown;
+                
+            }/*group selector*/
+
+
+
+#sample{
+    color: aqua;
+} /*id selector*/
+
+
+
+.div-class{
+    color: blueviolet;
+}/*class selector*/

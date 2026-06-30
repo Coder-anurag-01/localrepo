@@ -1,0 +1,17 @@
+h1{
+    color:rgb(14, 78, 78);
+}
+
+
+fieldset{
+    width: 530px;;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 15px;
+    color:rgb(29, 65, 68);
+}
+
+body{
+    background-image: url(background\ image.jpg);
+    background-size: cover;
+}

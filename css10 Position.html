@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>CSS10</title>
+   <style>
+       .anurag{
+        position: relative;
+       }
+
+       .one{
+        position: relative;
+        border: 2px solid red;
+        height: 100px;
+        margin: 40px;
+        z-index: 100; /*z-index (1-100) tak hota hai*/ /*z-index box ko position dena ka kaam aata hai*/
+        background-color: bisque;
+       }
+
+       .two{
+        position: absolute;
+        border: 2px solid red;
+        height: 60px;
+        width: 70%;
+        z-index: 20; /*z-index (1-100) tak hota hai*/
+        margin: 40px;
+        top: 15px;
+        background-color: greenyellow;
+
+       }
+
+        .three{
+        position: absolute;
+        border: 2px solid red;
+        height: 60px;
+        width: 45%;
+        z-index: 70; /*z-index (1-100) tak hota hai*/
+        margin: 40px;
+        left: 50px;
+        top: 30px;
+        background-color: aqua;
+
+       }
+
+    </style>
+
+</head>
+
+<body>
+
+   <div class="anurag">
+
+    <div class="one">Box 1</div>
+    <div class="two">Box 2</div>
+    <div class="three">Box 3</div>
+
+   </div>
+
+</body>
+
+</html>

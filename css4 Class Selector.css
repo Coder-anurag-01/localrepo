@@ -1,0 +1,17 @@
+.div-style{
+    background-color: aqua;
+}
+
+.div-image{
+    color: brown;
+    background-image: url(Ai\ css.jpeg);
+}
+
+
+.div-image{
+    color: aliceblue;
+    background-image: url(Ai\ css.jpeg);
+    background-repeat: repeat-x;/*repeat-x, repeat-y, reapeat, three type hai*/
+    background-position: top;/*left,right,top, likh ka set bhi kar sakte hai photo ko*/
+}
+
